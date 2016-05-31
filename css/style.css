@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzJ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+
+.wrapper {
+    border:1px solid rgba(125,125,125, 0.5);
+    display:inline-block;
+    position:relative;
+}
+/*-----------------------------------------------------------------------------------*/
+input,
+button {
+    background-color:transparent;
+    border:0;
+}
+
+button {
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+input {
+    padding-right:30px; /* button padding */
+	width: 480px;
+	height:28px;
+	font-size:18px;
+	font-family: 'Open Sans';
+}
+/*-----------------------------------------------------------------------------------*/
+.background{
+	height: 160px;
+	background-color: white;
+	border-bottom: 1px solid rgba(125,125,125, 0.5);
+}
+body{
+	background-color: #e7e7e7;
+	margin: 0px;
+}
+h1{
+	padding-top: 25px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 48px;
+	font-family: 'Open Sans';
+	color: rgba(125,125,125, 1);
+}
+.innersearch{
+	text-align:center;
+	padding-top: 20px;
+	margin:auto;
+}
+#search{
+	background-image:url(http://findicons.com/files/icons/1389/g5_system/32/toolbar_find.png);
+	width:28px;
+	height:28px;
+	background-size: 28px 28px;
+    background-repeat: no-repeat;
+}
+.recept{
+	background-color:white;
+
+	margin: 0 auto; 
+	margin-top: 5px;
+	width:50%;
+	height:700px;
+	border: 1px solid rgba(125,125,125, 0.5);
+
+}
